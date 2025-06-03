@@ -1,10 +1,10 @@
-# 📟 Arduino LCD Display with I2C + Potentiometer
+#  Arduino LCD Display with I2C + Potentiometer
 
 This project uses a potentiometer to control an LCD display via I2C interface on an Arduino Uno. The LCD shows real-time analog readings and tracks whether the value is increasing, decreasing, or stable.
 
 ---
 
-##  🛠️ Components Used
+##  Components Used
 
 - Arduino Uno
 - I2C 16×2 LCD Display
@@ -15,7 +15,7 @@ This project uses a potentiometer to control an LCD display via I2C interface on
 
 ---
 
-##  ⚙️ How It Works
+##  How It Works
 
 - The potentiometer is connected to analog pin `A0`
 - The LCD is connected via I2C (address: `32` for Tinkercad, may vary in real modules)
@@ -27,7 +27,7 @@ This project uses a potentiometer to control an LCD display via I2C interface on
 
 ---
 
-##  🔌 Pin Connections
+##  Pin Connections
 
 | Component        | Arduino Pin |
 |------------------|-------------|
@@ -42,13 +42,13 @@ This project uses a potentiometer to control an LCD display via I2C interface on
 
 ---
 
-##  📷 Circuit Diagram
+##  Circuit Diagram
 
 ![Circuit Diagram](lcd_pot_diagram.png)
 
 ---
 
-##  💻 Full Arduino Code
+##  Full Arduino Code
 
 ```cpp
 #include <Wire.h>
